@@ -1,2 +1,4 @@
-package gui;public class MainView {
+package gui;
+
+public class MainView {
 }

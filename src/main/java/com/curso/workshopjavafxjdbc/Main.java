@@ -10,13 +10,17 @@ import java.io.IOException;
 
 public class Main extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(Main.class.getResource("MainView.fxml"));
-        Parent parent = loader.load();
-        Scene mainScene = new Scene(parent);
-        stage.setScene(mainScene);
-        stage.setTitle("Sample JavaFX application");
-        stage.show();
+    public void start(Stage primaryStage) throws IOException {
+        try {
+            FXMLLoader loader = new FXMLLoader(Main.class.getResource("MainView.fxml"));
+            Parent parent = loader.load();
+            Scene mainScene = new Scene(parent);
+            primaryStage.setScene(mainScene);
+            primaryStage.setTitle("Sample JavaFX application");
+            primaryStage.show();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
