@@ -4,6 +4,7 @@ module com.curso.workshopjavafxjdbc {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens com.curso.workshopjavafxjdbc to javafx.fxml;
     exports com.curso.workshopjavafxjdbc;
