@@ -9,9 +9,8 @@
 
 <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.curso.workshopjavafxjdbc.MainViewController">
   <content>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="390.0" prefWidth="598.0">
+      <VBox layoutX="-63.0" layoutY="204.0" prefHeight="281.0" prefWidth="408.0">
          <children>
-            <VBox layoutX="-63.0" layoutY="204.0" prefHeight="281.0" prefWidth="408.0" />
             <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
               <menus>
                 <Menu mnemonicParsing="false" text="Registration">
@@ -27,6 +26,7 @@
                 </Menu>
               </menus>
             </MenuBar>
-         </children></AnchorPane>
+         </children>
+      </VBox>
   </content>
 </ScrollPane>
