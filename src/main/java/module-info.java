@@ -7,5 +7,5 @@ module com.curso.workshopjavafxjdbc {
 
     opens com.curso.workshopjavafxjdbc to javafx.fxml;
     exports com.curso.workshopjavafxjdbc;
-
+    exports com.curso.workshopjavafxjdbc.model.entities;
 }

@@ -1,4 +1,4 @@
-package model.entities;
+package com.curso.workshopjavafxjdbc.model.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
